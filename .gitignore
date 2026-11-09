@@ -2,3 +2,11 @@
 __pycache__/
 bin/
 *.pyc
+
+# Personal preparation notes
+private-notes/
+PRESENTATION.md
+PRESENTATION_QA.md
+GITHUB_REPOSITORY.md
+docs/COURSE_REQUIREMENTS.md
+docs/QUESTIONS.md

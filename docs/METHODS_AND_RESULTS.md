@@ -111,7 +111,7 @@ ovitos scripts/render_ovito.py
 python scripts/compose_figures.py
 ```
 
-On this Mac, `ovitos` is `<OVITO installation>/ovitos`. The saved sessions in `ovito/` provide the four views for interactive exploration; if OVITO requests the data after relocating the folder, select `results/production/trajectory.dump` in the copied project. Sessions contain their Python modifier code. No GPU is required for the CPU simulation or Tachyon rendering.
+The `ovitos` executable is supplied with the OVITO installation. The saved sessions in `ovito/` provide the four views for interactive exploration; if OVITO requests the data after relocating the folder, select `results/production/trajectory.dump` in the copied project. Sessions contain their Python modifier code. No GPU is required for the CPU simulation or Tachyon rendering.
 
 ## File guide
 
@@ -125,13 +125,6 @@ On this Mac, `ovitos` is `<OVITO installation>/ovitos`. The saved sessions in `o
 - `movies/`: the four complete visualization movies.
 - `ovito/`: saved interactive sessions.
 
-## One-minute presentation outline
-
-1. **Problem:** A movie of atom positions alone does not explain how a temperature imbalance relaxes or how parallel computation partitions the system.
-2. **Method:** Extend the class MPI molecular-dynamics program to export physical properties and stable atom identities, then show the same run in OVITO with four complementary encodings.
-3. **Result:** The two temperatures approach a common value near 0.8; the numerical energy and stress checks support the physical interpretation.
-4. **Contribution:** A reproducible path from parallel simulation to verified, interactive visualization, with the six stress components available for further exploration.
-
 ## Sources
 
 - Instructor's CSCI 596 Assignment 7 handout, “Final-Project Ideas”.
@@ -139,5 +132,3 @@ On this Mac, `ovitos` is `<OVITO installation>/ovitos`. The saved sessions in `o
 - [Course visualization lecture](https://aiichironakano.github.io/cs596/VMD.pdf).
 - [OVITO rendering documentation](https://www.ovito.org/manual/python/introduction/scripting/rendering.html).
 - [OVITO Python modifier documentation](https://www.ovito.org/manual/python/modules/ovito_modifiers.html).
-
-This repository contains the current implementation and observed results. Course submission and topic discussion are handled separately through the class.

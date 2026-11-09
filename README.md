@@ -4,7 +4,7 @@
 
 Hot and cold regions of a simulated fluid approach a common temperature. Four complementary views connect that relaxation to atomic kinetic energy, velocity components, MPI ownership, and stress.
 
-**[One-minute presentation](PRESENTATION.md)** · **[Methods and results](docs/METHODS_AND_RESULTS.md)** · **[Questions and answers](docs/QUESTIONS.md)** · **[Reproduce](#reproduce)**
+**[Methods and results](docs/METHODS_AND_RESULTS.md)** · **[Reproduce](#reproduce)**
 
 ## Problem
 
@@ -93,11 +93,10 @@ Saved [OVITO sessions](ovito/) are also included. After moving the repository, r
 
 | Folder/file | Contents |
 |---|---|
-| [`PRESENTATION.md`](PRESENTATION.md) | Timed GitHub walkthrough and approximately one-minute script |
-| [`docs/`](docs/) | Full report, Q&A, and checked course requirements |
+| [`docs/`](docs/) | Methods, results, and verification report |
 | [`src/`](src/), [`original/`](original/), [`inputs/`](inputs/) | Modified code, preserved starter code, and simulation parameters |
 | [`scripts/`](scripts/) | Run, verification, plotting, and rendering steps |
 | [`results/`](results/) | Actual trajectory, thermodynamic data, and verification records |
 | [`figures/`](figures/), [`movies/`](movies/), [`ovito/`](ovito/) | Plots, previews, complete movies, and saved sessions |
 
-This project follows the molecular-dynamics extensions suggested in Assignment 7. The [course-requirements check](docs/COURSE_REQUIREMENTS.md) records how the repository and presentation relate to the final-project instructions.
+This project follows the molecular-dynamics extensions suggested in Assignment 7.
