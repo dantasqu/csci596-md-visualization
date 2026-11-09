@@ -1,0 +1,4 @@
+JobID|JobName|State|ExitCode|AllocCPUS|Elapsed|NodeList
+13887119|cs596-final-viz|COMPLETED|0:0|4|00:00:11|d05-41
+13887119.batch|batch|COMPLETED|0:0|4|00:00:11|d05-41
+13887119.extern|extern|COMPLETED|0:0|4|00:00:11|d05-41

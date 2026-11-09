@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "atoms": 1152,
+  "MPI_ranks": 4,
+  "frames": 201,
+  "steps": 6000,
+  "time_step": 0.005,
+  "simulation_time": 30,
+  "baseline_unchanged": true,
+  "independent_pair_check_frames": [
+    0,
+    100,
+    200
+  ],
+  "maximum_errors": {
+    "kinetic_energy": 6.02824457018869e-11,
+    "temperature": 4.879874282437413e-12,
+    "momentum": 1.6368861821547398e-10,
+    "stress_tensor": 1.7804776319962912e-08,
+    "potential_energy": 1.6925127965805586e-11
+  },
+  "maximum_absolute_energy_drift_per_atom": 0.0003939608499998748,
+  "maximum_relative_energy_drift": 0.000127780131585544,
+  "initial_spatial_temperatures": [
+    1.5,
+    0.5
+  ],
+  "late_interval": [
+    20,
+    30
+  ],
+  "late_mean_spatial_temperatures": [
+    0.799886237294373,
+    0.792647921411179
+  ],
+  "late_mean_temperature_difference": 0.0072383158831940166,
+  "maximum_atoms_with_changed_MPI_owner": 505,
+  "trajectory_sha256": "bb970f79bb33b6775b6bfa2b306a866069218cbffe383ae682cfa392118bcad5"
+}

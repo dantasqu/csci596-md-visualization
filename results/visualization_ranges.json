@@ -1,0 +1,9 @@
+{
+  "kinetic_energy_max": 5.1578242263431,
+  "velocity_component_limit": 2.5215925702412485,
+  "von_mises_max": 29.203136817173487,
+  "stress_component_limit": 16.17513210443859,
+  "clipping_policy": "Fixed global 99.5th-percentile bounds; values outside the range saturate. All frames use identical bounds.",
+  "temperature_curve_smoothing": "Nine-frame moving average (1.35 reduced time units); raw samples shown faintly.",
+  "temperature_profile": "16 fixed spatial bins; subtract instantaneous mean velocity in each bin."
+}

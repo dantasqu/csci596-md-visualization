@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "sessions": {
+    "kinetic_energy": {
+      "reopened": true,
+      "checked_frames": [
+        0,
+        100,
+        200
+      ]
+    },
+    "velocity_rgb": {
+      "reopened": true,
+      "checked_frames": [
+        0,
+        100,
+        200
+      ]
+    },
+    "parallel_domains": {
+      "reopened": true,
+      "checked_frames": [
+        0,
+        100,
+        200
+      ]
+    },
+    "stress_von_mises": {
+      "reopened": true,
+      "checked_frames": [
+        0,
+        100,
+        200
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+numpy>=1.24
+matplotlib>=3.7
+# Rendering uses the Python runtime bundled with OVITO Pro 3.16.1.

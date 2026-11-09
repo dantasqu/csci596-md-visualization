@@ -1,0 +1,10 @@
+{
+  "OVITO_version": "3.16.1",
+  "frames_per_movie": 201,
+  "fps": 20,
+  "resolution": [
+    960,
+    720
+  ],
+  "preview_only": false
+}
