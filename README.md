@@ -37,7 +37,7 @@ The result is a reproducible connection between parallel simulation, measured th
 | Parallel domains | Current owner among the four MPI ranks | [Play/download](movies/parallel_domains.mp4) |
 | Stress | Von Mises invariant of the per-atom stress tensor | [Play/download](movies/stress_von_mises.mp4) |
 
-All movies contain **201 frames**, run for **10.05 seconds**, and use **960 × 720** resolution. If GitHub does not play an MP4 in the file view, use its download button. The animated preview above plays directly in this README.
+All movies contain **201 frames**, run for **10.05 seconds**, and use **960 × 720** resolution. If GitHub does not play an MP4 in the file view, use its download button.
 
 The [six independent stress components](figures/stress_tensor_components.png) and [spatial temperature profile](figures/temperature_profile.png) provide additional views. All parameters, formulas, color bounds, and interpretation limits are in the [full report](docs/METHODS_AND_RESULTS.md).
 
@@ -48,11 +48,11 @@ The [six independent stress components](figures/stress_tensor_components.png) an
 3. Kinetic-energy and symmetric stress-tensor export alongside positions, velocities, and current MPI owner.
 4. Independent numerical checks, plots, and reproducible OVITO rendering scripts.
 
-The instructor's sources are preserved in [`original/`](original/). Changes to [`pmd.c`](src/pmd.c) and [`pmd.h`](src/pmd.h) are marked with `MODIFIED` and `END MODIFIED`; the added diagnostics are in [`visualization.h`](src/visualization.h). See [attribution](ATTRIBUTION.md).
+This project extends Prof. Aiichiro Nakano's molecular-dynamics code; see [attribution](ATTRIBUTION.md).
 
 ## Evidence
 
-The four-rank run completed on USC Discovery on **November 9, 2026**, as job **13887119**. All 201 frames retain 1,152 unique atom IDs. The visualization-disabled short run reproduces the reference program's printed thermodynamic results. Energy, temperatures, momentum, stress, movie decoding, and saved OVITO views were checked.
+The four-rank run completed on USC Discovery as job **13887119**. All 201 frames retain 1,152 unique atom IDs. The visualization-disabled short run reproduces the reference program's printed thermodynamic results. Energy, temperatures, momentum, stress, movie decoding, and saved OVITO views were checked.
 
 - [Numerical verification](results/verification.json)
 - [Actual temperature and energy data](results/production/thermo.csv)
